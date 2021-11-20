@@ -1,4 +1,4 @@
-package com.hourani.retrofitexample
+package com.hourani.retrofitexample.data
 
 data class Location(
     val name: String,
