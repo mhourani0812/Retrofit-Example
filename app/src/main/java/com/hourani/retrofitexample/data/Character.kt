@@ -14,3 +14,7 @@ data class Character(
     val type: String,
     val url: String
 )
+
+class listOfCharacters(
+    val results : List<Character>
+)

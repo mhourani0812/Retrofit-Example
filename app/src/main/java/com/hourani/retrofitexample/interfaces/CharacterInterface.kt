@@ -1,10 +1,10 @@
 package com.hourani.retrofitexample.interfaces
 
-import com.hourani.retrofitexample.data.Character
+import com.hourani.retrofitexample.data.listOfCharacters
 import retrofit2.Call
 import retrofit2.http.GET
 
 interface CharacterInterface {
-    @GET("1")
-    fun getData(): Call<Character>
+    @GET("character")
+    fun getData() : Call<listOfCharacters>
 }
